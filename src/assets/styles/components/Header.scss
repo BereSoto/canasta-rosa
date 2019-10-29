@@ -1,0 +1,46 @@
+.Header{
+   background-color: #e9e9e9;
+   max-height: 400px;
+   font-size: 1.5rem;
+
+}
+
+.Header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.Header__column{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.Header__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+
+.Header__list{
+    padding: 1rem;
+    color: #3c3c3b;
+}
+.Header__list:hover{
+    color: #FF2E87;
+    
+}
+.Line{
+    color: #FF2E87;
+}
+
+.Header__search{
+    border-radius: 15px;
+    outline: none;
+    height: 1.5rem;
+    margin: 0 10px;
+}
