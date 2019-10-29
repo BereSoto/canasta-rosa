@@ -35,18 +35,7 @@ module.exports = {
             loader: MiniCssExtractPlugin.loader,
           },
           'css-loader',
-          {
-            loader: 'postcss-loader', // Run postcss actions
-            options: {
-              plugins() { // postcss plugins, can be exported to postcss.config.js
-                return [
-                  // eslint-disable-next-line global-require
-                  require('autoprefixer'),
-                ];
-              },
-            },
-          },
-          'sass-loader',
+
         ],
       },
       {
