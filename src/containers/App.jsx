@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Card from '../components/Card';
 import Filter from '../components/Filter';
+import ProductList from '../components/ProductList';
 import '../assets/styles/App.scss';
 
 const App = () => (
@@ -10,6 +11,7 @@ const App = () => (
     <div className='Container'>
       <Card />
       <Filter />
+      <ProductList />
 
     </div>
 
