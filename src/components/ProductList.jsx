@@ -1,4 +1,5 @@
 import React from 'react';
+import '../assets/styles/components/ProductList.scss';
 // definimos variables
 
 const $observe = document.getElementById('observe');
@@ -22,10 +23,12 @@ const getData = (api) => {
       const output = products
         .map((product) => { //recorre el listado de productos
           return `
-        <article className="Item"> 
+        
+        <article class="item"> 
           <img src="${product.photo.small}" /> 
           <h2>${product.id}<span>${product.name}</span></h2>
         </article>
+        
       `;
           // regresa un articulo con foto, nombre y id
         })
