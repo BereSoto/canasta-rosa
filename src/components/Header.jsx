@@ -3,24 +3,24 @@ import '../assets/styles/components/Header.scss';
 
 const Header = () => (
 
-  <header className='Header'>
-    <div className='Header__content'>
+  <header className='header'>
+    <div className='header__content'>
       <div className='Header__column'>
         <p>canastarosa</p>
       </div>
-      <div className='Header__column'>
-        <ul className='Header__menu'>
-          <li className='Header__list'>Market</li>
-          <li className='Header__list'>Inspire</li>
-          <li className='Header__list'>Pro</li>
+      <div className='header__column'>
+        <ul className='header__menu'>
+          <li className='header__list'>Market</li>
+          <li className='header__list'>Inspire</li>
+          <li className='header__list'>Pro</li>
         </ul>
-        <p className='Line'>|</p>
+        <p className='line'>|</p>
         <input
           type='text'
-          className='Header__search'
+          className='leader__search'
           placeholder=' Buscar...'
         />
-        <p className='Line'>|</p>
+        <p className='line'>|</p>
 
       </div>
 

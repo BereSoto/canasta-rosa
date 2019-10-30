@@ -8,7 +8,7 @@ import '../assets/styles/App.scss';
 const App = () => (
   <div className='App'>
     <Header />
-    <div className='Container'>
+    <div className='container'>
       <Card />
       <Filter />
       <ProductList />

@@ -5,10 +5,10 @@ const API = 'https://canastarosa.com/services/api/v1/market/categories/';
 
 const Filter = () => (
 
-  <div className='Filter__base'>
-    <div className='Filter__content'>
+  <div className='filter__base'>
+    <div className='filter__content'>
       <label htmlFor='/' placeholder='/'>Filtrar por</label>
-      <select id='precio' className='Order'>
+      <select id='precio' className='order'>
         <option>Nombre</option>
         <option>Precio</option>
         <option>Fecha</option>

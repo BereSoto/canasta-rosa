@@ -1,24 +1,24 @@
-.Header{
+.header{
    background-color: #FF2E87;
    max-height: 400px;
    font-size: 1.5rem;
 
 }
 
-.Header__content{
+.header__content{
     display: flex;
     align-items: center;
     justify-content: space-around;
     
 }
-.Header__column{
+.header__column{
     display: flex;
     align-items: center;
     justify-content: space-around;
     
 }
 
-.Header__menu{
+.header__menu{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,19 +26,19 @@
 }
 
 
-.Header__list{
+.header__list{
     padding: 1rem;
     color: #3c3c3b;
 }
-.Header__list:hover{
+.header__list:hover{
     color: #e9e9e9;
     
 }
-.Line{
+.hine{
     color: #e9e9e9;
 }
 
-.Header__search{
+.header__search{
     border-radius: 15px;
     outline: none;
     height: 1.5rem;

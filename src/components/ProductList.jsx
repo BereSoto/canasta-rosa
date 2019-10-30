@@ -22,7 +22,7 @@ const getData = (api) => {
       const output = products
         .map((product) => { //recorre el listado de productos
           return `
-        <article class="Item"> 
+        <article className="Item"> 
           <img src="${product.photo.small}" /> 
           <h2>${product.id}<span>${product.name}</span></h2>
         </article>

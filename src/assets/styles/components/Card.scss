@@ -1,4 +1,4 @@
-.Card__content{
+.card__content{
     display: flex;
     flex-direction: column;
     margin-left: 60px;
@@ -9,17 +9,17 @@
     margin-top: 2rem;
 }
 
-.Card__title{
+.card__title{
 text-align: center;
 padding-top:10px;
 }
 
-.Radio{
+.radio{
     justify-items: center;
     margin-left: 50px;
     padding:5px 0;
 }
-.Price{
+.price{
     width: 150px;
     height: 40px;
     border: 1px solid #FF2E87;
