@@ -2,6 +2,7 @@ import React from 'react';
 // definimos variables
 
 const $observe = document.getElementById('observe');
+//const API = 'https://canastarosa.com/services/api/v1/market/products/?category__slug=san-valentin-pasteles-3';
 const API = 'https://canastarosa.com/services/api/v1/market/products/';
 window.onload = localStorage.clear(); //limpiar cache
 

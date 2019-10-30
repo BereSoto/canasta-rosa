@@ -1,6 +1,8 @@
 import React from 'react';
 import '../assets/styles/components/Filter.scss';
 
+const API = 'https://canastarosa.com/services/api/v1/market/categories/';
+
 const Filter = () => (
 
   <div className='Filter__base'>
